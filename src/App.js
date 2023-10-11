@@ -66,14 +66,14 @@ export default function App() {
             <div key={index}>
               <input
                 name='Nome'
-                placeholder='Nome'
+                placeholder='nome'
                 onChange={event => handleFormChange(event, index)}
                 value={form.Nome}
               />
               <input
                 name='Email'
                 type='email'
-                placeholder='Email'
+                placeholder='email'
                 onChange={event => handleFormChange(event, index)}
                 value={form.Email}
               />
